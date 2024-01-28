@@ -6,6 +6,7 @@ mod = Module()
 ctx = Context()
 mod.list("abbreviation", desc="Common abbreviation")
 
+abbreviations_list = {}
 
 abbreviations = {
     "J peg": "jpg",
